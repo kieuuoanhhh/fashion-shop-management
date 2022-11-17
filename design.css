@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.col-sm-3 .border{
+    
+    border: none;
+}
+.col-sm-3 .blue{
+    background-color: #446084;
+}
+/*buy-now border border-secondary rounded text-decoration-none text-center text-white d-block blue px-3 mx-5 pt-2 pb-2*/
+.col-sm-3 .bag:hover{
+    /*overflow: hidden;*/
+    
+    filter: opacity(70%);
+}
+.col-sm-3 .bag{
+    transition: 0.25 ease-in-out;
+    /*position: absolute;*/
+}
+.amountt{
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
